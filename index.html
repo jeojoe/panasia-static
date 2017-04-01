@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Panasia Progressive Technology | Welcome</title>
+  <meta charSet="utf-8" />
+  <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="static/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="static/skeleton.css" />
+  <!-- Main CSS -->
+  <style type="text/css">
+    nav {
+      box-sizing: border-box;
+      padding: 5px 10% 4px;
+      position: fixed;
+      width: 100%;
+      background-color: rgba(0,0,0,1);
+      border-bottom: 1px solid #444;
+      z-index: 999;
+    }
+    
+    .logo-wrapper {
+      cursor: pointer;
+    }
+
+    .logo {
+      display: inline-block;
+      verticle-align: middle;
+      width: 400px;
+      color: white;
+      position: relative;
+    }
+    
+    .company-logo {
+      display: inline-block;
+      verticle-align: middle;
+    }
+
+    .company-name {
+      width: 250px;
+      display: inline-block;
+      verticle-align: middle;
+      margin: 5px 0 0 15px;
+    }
+
+    .company-logo h1 {
+      margin: 0;
+      padding: 0;
+      color: #fff;
+    }
+
+    .company-name h4 {
+      font-size: 18px;
+      margin: 0;
+      padding: 0;
+      letter-spacing: 0.1px;
+      color: #fff;
+    }
+
+    .menu {
+      display: inline-block;
+      float: right;
+    }
+
+    .item {
+      display: inline-block;
+      verticle-align: middle;
+      margin: 12px 15px;
+      font-family: Oswald;
+    }
+
+    .item a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .item a:hover {
+      text-decoration: underline;
+    }
+
+    .item.button {
+      border-color: #fff;
+    }
+
+    .menu-mobile-button {
+      display: none;
+      color: #fff;
+      position: absolute;
+      top: 20px;
+      right: 15px;
+    }
+
+    @media (max-width: 1200px) {
+      nav {
+        padding: 5px 3% 4px;
+      }
+    }
+    @media (max-width: 1000px) {
+      nav {
+        padding: 5px 10px 4px;
+      }
+      .logo {
+        width: 150px;
+      }
+      .menu {
+        display: none;
+      }
+      .menu-mobile-button {
+        display: block;
+      }
+      .company-logo {
+        display: none;
+      }
+      .company-name {
+        margin: 10px 5px;
+      }
+      .menu.active {
+        display: block;
+        float: none;
+      }
+      .menu .item {
+        display: block;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+<!-- Navbar -->
+<nav>
+  <div class="logo">
+    <a href="index.html">
+      <div class="logo-wrapper">
+        <div class="company-logo">
+          <h1><strong>PPT</strong></h1>
+        </div>
+        <div class="company-name">
+          <h4><strong>PANASIA</strong> PROGRESSIVE TECHNOLOGY CO., LTD.</h4>
+        </div>
+      </div>
+    </a>
+  </div>
+  <button class="button menu-mobile-button">
+    MENU
+  </button>
+  <div class="menu">
+    <div class="item">
+      <a href="why.html">WHY PPT</a>
+    </div>
+    <div class="item">
+      <a href="products.html">PRODUCTS</a>
+    </div>
+    <div class="item">
+      <a href="services.html">SERVICES</a>
+    </div>
+    <div class="item">
+      <a href="projects.html">PROJECTS</a>
+    </div>
+    <div class="item">
+      <a href="faq.html">FAQ</a>
+    </div>
+    <div class="item button">
+      <a href="contact.html">CONTACT</a>
+    </div>
+  </div>
+</nav>
+
+  <!-- Banner -->
+  <div class="bg custom">
+    <div class="container banner-wrapper">
+      <h1 class="main">LEADING IN REBAR COUPLING TECHNOLOGY</h1>
+      <p class="sub">Learn Our Competences</p>
+    </div>
+    <div class="arrow">↓</div>
+    <!-- onclick={() => jump('.jump-target', { offset: -70 })} -->
+  </div>
+  <style type="text/css">
+    .bg {
+      background-image: url('static/bg-1.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      height: 500px;
+      text-align: center;
+    }
+    .banner-wrapper {
+      padding-top: 140px;
+    }
+    .main {
+      font-weight: 600;
+      text-shadow: 0px 2px 3px rgba(0,0,0,1);
+      font-family: Oswald;
+      font-size: 60px;
+      letter-spacing: 0.2rem;
+    }
+    .arrow {
+      margin: 0 auto;
+      font-size: 28px;
+      color: #fff;
+      -moz-animation: bounce 2s infinite;
+      -webkit-animation: bounce 2s infinite;
+      animation: bounce 2s infinite;
+      cursor: pointer;
+    }
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+      }
+      40% {
+        -moz-transform: translateY(-18px);
+        -ms-transform: translateY(-18px);
+        -webkit-transform: translateY(-18px);
+        transform: translateY(-18px);
+      }
+      60% {
+        -moz-transform: translateY(-8px);
+        -ms-transform: translateY(-8px);
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+      }
+    }
+  </style>
+  <!-- Content -->
+  <div class="s-1 container jump-target">
+    <h3 class="head 1">20 Year of Experience and R&D</h3>
+    <div class="line"></div>
+    <p>"We are an expert in parallel-threaded mechanical coupler system with over 20 years of direct experience and continuous R&D. Combining soft cold forged technology with thread rolling process, we guarantee you with a perfectly stronger connection than the parent bars."</p>
+  </div>
+  <div class="s-2 container">
+    <div class="row">
+      <div class="four columns">
+        <div class="img one"></div>
+        <a href="products"><h5>REBAR COUPLERS</h5></a>
+        <p>A premium connecting joint for reinforcement bars that can overcome the disturbing limitations and problems you are facing.</p>
+      </div>
+      <div class="four columns">
+        <div class="img two"></div>
+        <a href="services"><h5>SERVICES</h5></a>
+        <p>We work hard to make sure that you succeed. We offer you on-site service, factory production and consultant service.</p>
+      </div>
+      <div class="four columns">
+        <div class="img three"></div>
+        <a href="machines"><h5>MACHINES</h5></a>
+        <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
+      </div>
+    </div>
+  </div>
+  <div class="s-3">
+    <div class="container">
+      <div class="row">
+        <div class="five columns">
+          <h2>Our Clients</h2>
+        </div>
+        <div class="seven columns">
+          <p>We are empowering success of our clients. (Wating final details)</p>
+          <p>Central CNX</p>
+          <p>อู่ซ่อมรถสายสีม่วง และสายสีน้ำเงิน</p>
+          <p>Renaissance Sukhumvit 57</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container s-contact">
+    <h1>Achieve Success Together</h1>
+    <hr />
+  </div>
+  <div class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="six columns">
+          <h3>Inquiries</h3>
+          <p>For any inquiries, questions or commendations, please call: (+66)81-9196432 or fill out the following form</p>
+          <input
+            type="text" value="" class="u-full-width"
+            placeholder="Name"
+          />
+          <input
+            type="text" value="" class="u-full-width"
+            placeholder="Email"
+          />
+          <input
+            type="text" value="" class="u-full-width"
+            placeholder="Subject"
+          />
+          <textarea
+            value="" class="u-full-width"
+            placeholder="Message"
+          ></textarea>
+          <button class="button-primary b-fix">Send</button>
+        </div>
+        <div class="six columns">
+          <h5>Head Office</h5>
+          <p>100/29 Soi Sap Tawi, Sam Khok district, Pathum Thani, Thailand 12160</p>
+          <p>www.ppt-coupler.com<br />
+          Tel: (+66)81-919-6432<br />
+          Fax: (+66)2-977-3131
+          </p>
+          <h5>Employment</h5>
+          <p>To apply for a job with PPT, please send a cover letter together with your C.V. to: info@ppt-coupler.com</p>
+          <hr />
+          <h5>Get a quote: (+66)81-919-6432</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style type="text/css">
+    .contact {
+      padding: 30px 0 50px;
+    }
+    .b-fix {
+      float: right;
+    }
+    .s-1 {
+      padding: 60px 0;
+    }
+    .s-1 h3, .s-3 h2, .s-4 h3 {
+      text-align: center;
+      font-weight: 600;
+      color: #2C3E50;
+      margin-bottom: 30px;
+    }
+    .s-1 h3 {
+      font-size: 42px;
+      font-family: Oswald;
+      font-size: 60px;
+    }
+    .s-1 p {
+      text-align: center;
+      font-style: italic;
+      font-size: 16px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .s-1 .line {
+      width: 30%;
+      margin: 0 auto 30px;
+      height: 1px;
+      background-color: #ddd;
+    }
+    .s-2 {
+      margin-bottom: 100px;
+    }
+    .s-2 .four {
+      height: 400px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    .s-2 .img {
+      width: 100%;
+      height: 200px;
+      background-size: cover;
+      background-position: center;
+      border-radius: 5px;
+    }
+    .s-2 .img.one {
+      background-image: url('static/index/s2-1.jpg');
+    }
+    .s-2 .img.two {
+      background-image: url('static/index/s2-2.jpg');
+    }
+    .s-2 .img.three {
+      background-image: url('static/index/s2-3.jpg');
+    }
+    .s-2 h5 {
+      margin: 20px 7% 5px;
+      font-weight: 600;
+      color: #2C3E50;
+      text-decoration: none;
+    }
+    .s-2 p {
+      margin: 0 7% 5px;
+    }
+    .s-3 {
+      background-image: url('static/bg-client.jpg');
+      background-size: cover;
+      height: 500px;
+      position: relative;
+      padding: 30px 0;
+      margin-bottom: 60px;
+      color: #fff;
+      text-shadow: 0px 2px 3px rgba(0,0,0,1);
+    }
+    .s-3 h2 {
+      color: #fff;
+      letter-spacing: 0.05rem;
+      font-family: Oswald;
+    }
+    .s-3 .columns {
+      padding-top: 50px
+    }
+    .s-contact h1 {
+      text-align: center;
+      font-family: Oswald;
+    }
+  </style>
+  <!-- Footer -->
+  <div id="footer">
+    <div class="bg-footer"></div>
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="four columns">
+            <p class="company">&#169; 2017 Panasia Progressive Technology</p>
+            <p>100/29 Soi Sap Tawi, Sam Khok district, Pathum Thani, Thailand 12160</p>
+            <p>Tel: (+66) 81-919-6432<br />Fax: (+66) 2-977-3131</p>
+          </div>
+          <div class="eight columns">
+            <Link href="/"><a class="item">HOME</a></Link>
+            <Link href="/why"><a class="item">WHY PPT</a></Link>
+            <Link href="/products"><a class="item">PRODUCTS</a></Link>
+            <Link href="/services"><a class="item">SERVICES</a></Link>
+            <Link href="/projects"><a class="item">PROJECTS</a></Link>
+            <Link href="/faq"><a class="item">FAQ</a></Link>
+            <Link href="/contact"><a class="item">CONTACT</a></Link>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style type="text/css">
+    #footer {
+      background-color: #000;
+      height: 300px;
+      position: relative;
+    }
+    .bg-footer {
+      background-image: url('static/bg-1.jpg');
+      background-size: cover;
+      background-position: bottom;
+      height: 100%;
+    }
+    #footer .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.6);
+      padding: 30px 0;
+      color: #fff;
+      font-size: 13px;
+    }
+    #footer .company {
+      font-family: Oswald;
+      font-size: 17px;
+    }
+    #footer .item {
+      font-family: Oswald;
+      font-size: 17px;
+      color: #fff;
+      text-decoration: none;
+      margin: 0 18px;
+    }
+    #footer .item:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 1200px) {
+      #footer .item {
+        margin: 0 0 12px 100px;
+        display: block;
+      }
+      #footer {
+        height: 550px;
+      }
+    }
+    @media (max-width: 550px) {
+      #footer .item {
+        margin: 0 0 12px;
+      }
+    }
+  </style>
+</body>
+</html>

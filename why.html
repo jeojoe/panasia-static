@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Panasia Progressive Technology | Why Us</title>
+  <meta charSet="utf-8" />
+  <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="static/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="static/skeleton.css" />
+  <!-- Main CSS -->
+  <style type="text/css">
+    nav {
+      box-sizing: border-box;
+      padding: 5px 10% 4px;
+      position: fixed;
+      width: 100%;
+      background-color: rgba(0,0,0,1);
+      border-bottom: 1px solid #444;
+      z-index: 999;
+    }
+    
+    .logo-wrapper {
+      cursor: pointer;
+    }
+
+    .logo {
+      display: inline-block;
+      verticle-align: middle;
+      width: 400px;
+      color: white;
+      position: relative;
+    }
+    
+    .company-logo {
+      display: inline-block;
+      verticle-align: middle;
+    }
+
+    .company-name {
+      width: 250px;
+      display: inline-block;
+      verticle-align: middle;
+      margin: 5px 0 0 15px;
+    }
+
+    .company-logo h1 {
+      margin: 0;
+      padding: 0;
+      color: #fff;
+    }
+
+    .company-name h4 {
+      font-size: 18px;
+      margin: 0;
+      padding: 0;
+      letter-spacing: 0.1px;
+      color: #fff;
+    }
+
+    .menu {
+      display: inline-block;
+      float: right;
+    }
+
+    .item {
+      display: inline-block;
+      verticle-align: middle;
+      margin: 12px 15px;
+      font-family: Oswald;
+    }
+
+    .item a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .item a:hover {
+      text-decoration: underline;
+    }
+
+    .item.button {
+      border-color: #fff;
+    }
+
+    .menu-mobile-button {
+      display: none;
+      color: #fff;
+      position: absolute;
+      top: 20px;
+      right: 15px;
+    }
+
+    @media (max-width: 1200px) {
+      nav {
+        padding: 5px 3% 4px;
+      }
+    }
+    @media (max-width: 1000px) {
+      nav {
+        padding: 5px 10px 4px;
+      }
+      .logo {
+        width: 150px;
+      }
+      .menu {
+        display: none;
+      }
+      .menu-mobile-button {
+        display: block;
+      }
+      .company-logo {
+        display: none;
+      }
+      .company-name {
+        margin: 10px 5px;
+      }
+      .menu.active {
+        display: block;
+        float: none;
+      }
+      .menu .item {
+        display: block;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">
+      <a href="index.html">
+        <div class="logo-wrapper">
+          <div class="company-logo">
+            <h1><strong>PPT</strong></h1>
+          </div>
+          <div class="company-name">
+            <h4><strong>PANASIA</strong> PROGRESSIVE TECHNOLOGY CO., LTD.</h4>
+          </div>
+        </div>
+      </a>
+    </div>
+    <button class="button menu-mobile-button">
+      MENU
+    </button>
+    <div class="menu">
+      <div class="item">
+        <a href="why.html">WHY PPT</a>
+      </div>
+      <div class="item">
+        <a href="products.html">PRODUCTS</a>
+      </div>
+      <div class="item">
+        <a href="services.html">SERVICES</a>
+      </div>
+      <div class="item">
+        <a href="projects.html">PROJECTS</a>
+      </div>
+      <div class="item">
+        <a href="faq.html">FAQ</a>
+      </div>
+      <div class="item button">
+        <a href="contact.html">CONTACT</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner -->
+  <div class="bg custom">
+    <div class="container banner-wrapper" id="banner-wrapper-fix">
+      <h1 class="main">WHY PPT COUPLER ?</h1>
+      <p class="sub">There are several ways to connect steel bars but using PPT coupler is one of the most suitable ways based on these following reasons.</p>
+    </div>
+    <!-- onclick={() => jump('.jump-target', { offset: -70 })} -->
+  </div>
+  <style type="text/css">
+    .bg {
+      background-image: url('static/bg-1.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      height: 350px;
+      text-align: left;
+    }
+    #banner-wrapper-fix {
+      padding-top: 140px;
+    }
+    .main {
+      font-weight: 600;
+      text-shadow: 0px 2px 3px rgba(0,0,0,1);
+      font-family: Oswald;
+      font-size: 60px;
+      letter-spacing: 0.2rem;
+    }
+    /* Custom */
+    .bg.custom {
+      background-image: url('static/bg-2.jpg');
+    }
+    #banner-wrapper-fix {
+      padding-top: 150px;
+    }
+    @media (max-width: 620px) {
+      #banner-wrapper-fix {
+        padding-top: 90px;
+      }
+    }
+  </style>
+
+  <!-- Content -->
+  <div class="container custom">
+    <div class="row reason">
+      <div style="max-width: 800px">
+        <h1 class="head 1">INNOVATIVE TECHNOLOGY</h1>
+        <div class="line-under-head"></div>
+        <p>Both our couplers and threads are neatly designed by an expert who has been constantly researching and developing the technology for more than 20 years. Unlike others, our couplers are remarkably strong because they are made from special material and clever design.</p>
+        <p>The combination of soft cold-forged technology and reinforced parallel thread-rolling process results in perfect quality threads for connection.</p>
+        <div class="row">
+          <div class="four columns feature">Our process does not reduce cross-section area of a bar so it does not weaken bar strength.</div>
+          <div class="four columns feature">Our process does not excessively enlarge a bar so it does not upset a bar’s core, preventing undesirable cracks.</div>
+          <div class="four columns feature">Our process does not destroy strong hard surface of a bar nor creating sharp corners that are prone to crack like the infamous cutting thread technique.</div>
+        </div>
+      </div>
+    </div>
+    <div class="row reason">
+      <div class="six columns">
+        <h1 class="head 3">COMPETITIVE<br />PRICE</h1>
+        <div class="line-under-head"></div>
+        <p>Our prices are reasonable and affordable. Please contact us for quotation.</p>
+      </div>
+      <div class="six columns">
+        <h1 class="head 4">EASY<br />APPLICATION</h1>
+        <div class="line-under-head"></div>
+        <p>Not only that our products are strong and cost-effective but also user-friendly. Smooth engagement helps reduce unnecessary hard work.</p>
+      </div>
+    </div>
+    <div class="row founder">
+      <div class="five columns">
+        <img src="static/why/founder.jpg" alt="Founder" />
+      </div>
+      <div class="seven columns">
+        <label>Founder</label>
+        <h2>Mr. Noppadol Temsinsook</h2>
+        <div class="line-under-head"></div>
+        <h5>"Upsetting parallel thread coupler expert"</h5>
+        <p>1995 – Elaborating, experimenting and Mr.Noppadol Temsinsook contributed greatly to coupling technology, an innovative technique that surpassed the old and less effective overlapping technique.</p>
+        <p>Inventing, elaborating and commercializing an innovative coupling method, Mr. Noppadol Temsinsook contributed at that time, to the important progress; coupling technology instead of overlapping.</p>
+        <p>2009 - Dawn of a new path breaking era taking place and entering the market under the name of our new, dynamic company</p>
+      </div>
+    </div>
+    <hr />
+  </div>
+  <style type="text/css">
+    .container.custom {
+      padding: 50px 0;
+    }
+    .reason {
+      padding: 20px 0;
+    }
+    .line-under-head {
+      width: 70%;
+      height: 1px;
+      background-color: #ddd;
+      margin: 0 0 30px;
+    }
+    .head {
+      font-weight: 600;
+      color: #2c3e50;
+      letter-spacing: 0.05rem;
+      font-family: Oswald;
+    }
+    .feature {
+      padding: 10px 15px;
+      border: 1px solid #2c3e50;
+      border-radius: 8px;
+      margin-bottom: 20px;     
+    }
+    .founder {
+      padding: 30px 0;
+    }
+    .founder h2 {
+      color: #2c3e50;
+      letter-spacing: 0.05rem;
+      font-family: Oswald;
+    }
+    .founder h6 {
+      font-size: 20px;
+    }
+    .founder label {
+      color: #999;
+    }
+    .founder img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    .founder h5 {
+      font-style: italic;
+    }
+  </style>
+
+  <!-- Footer -->
+  <div id="footer">
+    <div class="bg-footer"></div>
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="four columns">
+            <p class="company">&#169; 2017 Panasia Progressive Technology</p>
+            <p>100/29 Soi Sap Tawi, Sam Khok district, Pathum Thani, Thailand 12160</p>
+            <p>Tel: (+66) 81-919-6432<br />Fax: (+66) 2-977-3131</p>
+          </div>
+          <div class="eight columns">
+            <Link href="/"><a class="item">HOME</a></Link>
+            <Link href="/why"><a class="item">WHY PPT</a></Link>
+            <Link href="/products"><a class="item">PRODUCTS</a></Link>
+            <Link href="/services"><a class="item">SERVICES</a></Link>
+            <Link href="/projects"><a class="item">PROJECTS</a></Link>
+            <Link href="/faq"><a class="item">FAQ</a></Link>
+            <Link href="/contact"><a class="item">CONTACT</a></Link>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style type="text/css">
+    #footer {
+      background-color: #000;
+      height: 300px;
+      position: relative;
+    }
+    .bg-footer {
+      background-image: url('static/bg-1.jpg');
+      background-size: cover;
+      background-position: bottom;
+      height: 100%;
+    }
+    #footer .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.6);
+      padding: 30px 0;
+      color: #fff;
+      font-size: 13px;
+    }
+    #footer .company {
+      font-family: Oswald;
+      font-size: 17px;
+    }
+    #footer .item {
+      font-family: Oswald;
+      font-size: 17px;
+      color: #fff;
+      text-decoration: none;
+      margin: 0 18px;
+    }
+    #footer .item:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 1200px) {
+      #footer .item {
+        margin: 0 0 12px 100px;
+        display: block;
+      }
+      #footer {
+        height: 550px;
+      }
+    }
+    @media (max-width: 550px) {
+      #footer .item {
+        margin: 0 0 12px;
+      }
+    }
+  </style>
+</body>
+</html>
